@@ -4,10 +4,10 @@ class Dog
   end
   
   def name=(name)
-    dogs_name = name 
+    @dogs_name = name 
   end
   
   def name 
-     puts name 
+     @name 
   end 
 end 
